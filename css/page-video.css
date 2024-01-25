@@ -1,0 +1,644 @@
+@media screen and (max-width: 767px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header > a {
+            height: 50%;
+        }
+
+        header > a > .logoHeader {
+            height: 100%;
+        }
+
+    main {
+        flex-grow: 1;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+        main > .titleContent {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        main > .thumbImage {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        main > .blockInfo {
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+        }
+
+            main > .blockInfo > p, i {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            main > .blockInfo > p > i {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            main > .blockInfo > p > i > span {
+                margin-left: 7px;
+            }
+
+        main > a > .btnWatch {
+            background-color: #F200DF;
+            height: 40px;
+            width: 100%;
+            border: 3px solid #F200DF;
+            border-radius: 15px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+            main > a > .btnWatch:hover {
+                background-color: #FFF;
+                color: #F200DF;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+
+            main > .adBlock {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 25px;
+            }
+
+            main > .adBlock > span {
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #CCCCCC;
+            }
+
+            main > .adBlock > a > .adImage {
+                width: 100%;
+            }
+
+    footer {
+        height: 70px;
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        footer > a, p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #CCCCCC;
+        }
+}
+
+@media screen and (max-width: 767px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header > a {
+            height: 50%;
+        }
+
+        header > a > .logoHeader {
+            height: 100%;
+        }
+
+    main {
+        flex-grow: 1;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+        main > .titleContent {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        main > .thumbImage {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        main > .blockInfo {
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+        }
+
+            main > .blockInfo > p, i {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            main > .blockInfo > p > i {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            main > .blockInfo > p > i > span {
+                margin-left: 7px;
+            }
+
+        main > a > .btnWatch {
+            background-color: #F200DF;
+            height: 40px;
+            width: 100%;
+            border: 3px solid #F200DF;
+            border-radius: 15px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+            main > a > .btnWatch:hover {
+                background-color: #FFF;
+                color: #F200DF;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+
+            main > .adBlock {
+                display: flex;
+                width: 80%;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px auto;
+            }
+
+            main > .adBlock > span {
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #CCCCCC;
+            }
+
+            main > .adBlock > a > .adImage {
+                width: 100%;
+            }
+
+    footer {
+        height: 70px;
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        footer > a, p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #CCCCCC;
+        }
+}
+
+@media screen and (max-width: 767px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header > a {
+            height: 50%;
+        }
+
+        header > a > .logoHeader {
+            height: 100%;
+        }
+
+    main {
+        flex-grow: 1;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+        main > .titleContent {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        main > .thumbImage {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        main > .blockInfo {
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+        }
+
+            main > .blockInfo > p, i {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            main > .blockInfo > p > i {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            main > .blockInfo > p > i > span {
+                margin-left: 7px;
+            }
+
+        main > a > .btnWatch {
+            background-color: #F200DF;
+            height: 40px;
+            width: 100%;
+            border: 3px solid #F200DF;
+            border-radius: 15px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+            main > a > .btnWatch:hover {
+                background-color: #FFF;
+                color: #F200DF;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+
+            main > .adBlock {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 25px;
+            }
+
+            main > .adBlock > span {
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #CCCCCC;
+            }
+
+            main > .adBlock > a > .adImage {
+                width: 100%;
+            }
+
+    footer {
+        height: 70px;
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        footer > a, p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #CCCCCC;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header > a {
+            height: 50%;
+        }
+
+        header > a > .logoHeader {
+            height: 100%;
+        }
+
+    main {
+        flex-grow: 1;
+        width: 65%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+        main > .titleContent {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        main > .thumbImage {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        main > .blockInfo {
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+        }
+
+            main > .blockInfo > p, i {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            main > .blockInfo > p > i {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            main > .blockInfo > p > i > span {
+                margin-left: 7px;
+            }
+
+        main > a > .btnWatch {
+            background-color: #F200DF;
+            height: 40px;
+            width: 100%;
+            border: 3px solid #F200DF;
+            border-radius: 15px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+            main > a > .btnWatch:hover {
+                background-color: #FFF;
+                color: #F200DF;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+
+            main > .adBlock {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px auto;
+            }
+
+            main > .adBlock > span {
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #CCCCCC;
+            }
+
+            main > .adBlock > a > .adImage {
+                width: 100%;
+            }
+
+    footer {
+        height: 70px;
+        width: 65%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        footer > a, p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #CCCCCC;
+        }
+}
+
+@media screen and (min-width: 1024px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 70px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header > a {
+            height: 50%;
+        }
+
+        header > a > .logoHeader {
+            height: 100%;
+        }
+
+    main {
+        flex-grow: 1;
+        width: 40%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+        main > .titleContent {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        main > .thumbImage {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        main > .blockInfo {
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-bottom: 10px;
+        }
+
+            main > .blockInfo > p, i {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            main > .blockInfo > p > i {
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+
+            main > .blockInfo > p > i > span {
+                margin-left: 7px;
+            }
+
+        main > a > .btnWatch {
+            background-color: #F200DF;
+            height: 40px;
+            width: 100%;
+            border: 3px solid #F200DF;
+            border-radius: 15px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+            main > a > .btnWatch:hover {
+                background-color: #FFF;
+                color: #F200DF;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+
+            main > .adBlock {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px auto;
+            }
+
+            main > .adBlock > span {
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #CCCCCC;
+            }
+
+            main > .adBlock > a > .adImage {
+                width: 100%;
+            }
+
+    footer {
+        height: 70px;
+        width: 40%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        footer > a, p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #CCCCCC;
+        }
+}
